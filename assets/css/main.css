@@ -2099,8 +2099,30 @@ button.primary:active,
 
 /* Form */
 
+ul.icons li {
+	color: #000000;
+}
+
+.items h3 {
+	color: #273c5a;
+	padding-left: 6rem;
+}
+
+.items li a {
+	color: #000 !important;
+	margin-left: 6rem !important;
+}
+
+.content p {
+	margin: 0 6rem 2rem 6rem;
+}
+
+.copyright {
+	margin: 0 0 0 6rem;
+}
+
 form {
-	margin: 0 0 2rem 0;
+	margin: 0 6rem 2rem 6rem;
 }
 
 form > :last-child {
@@ -2408,7 +2430,7 @@ input[type='radio'] + label:before {
 	text-transform: none !important;
 	font-family: 'Font Awesome 6 Brands', 'Font Awesome 6 Free';
 	font-weight: 400;
-	color: white;
+	color: #06a4bd;
 }
 
 .icon > .label {
@@ -2805,7 +2827,7 @@ ul.actions.fit.stacked {
 ul.icons {
 	cursor: default;
 	list-style: none;
-	padding-left: 0;
+	padding-left: 5.3rem;
 }
 
 ul.icons li {
@@ -2813,7 +2835,7 @@ ul.icons li {
 }
 
 ul.icons li:last-child {
-	padding-right: 0;
+	padding: 1rem 0 0 0;
 }
 
 ul.icons li .icon {
@@ -2827,6 +2849,7 @@ ul.icons li .icon {
 	line-height: 2.25rem;
 	border-radius: 2.25rem;
 	display: inline-block;
+	margin-left: 0 !important;
 }
 
 ul.icons li .icon:before {
@@ -2834,7 +2857,7 @@ ul.icons li .icon:before {
 }
 
 ul.icons li .icon:hover {
-	background-color: rgba(1, 142, 148, 0.8);
+	background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Table */
