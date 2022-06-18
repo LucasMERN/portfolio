@@ -2104,7 +2104,7 @@ ul.icons li {
 }
 
 .items h3 {
-	color: #273c5a;
+	color: #ffffff;
 	padding-left: 6rem;
 }
 
@@ -2113,16 +2113,8 @@ ul.icons li {
 	margin-left: 6rem !important;
 }
 
-.content p {
-	margin: 0 6rem 2rem 6rem;
-}
-
 .copyright {
 	margin: 0 0 0 6rem;
-}
-
-form {
-	margin: 0 6rem 2rem 6rem;
 }
 
 form > :last-child {
@@ -3594,7 +3586,7 @@ ul.feature-icons li:nth-child(4) {
 }
 
 #wrapper .copyright {
-	padding: 0 5rem;
+	margin: 2rem 5rem;
 }
 
 @media screen and (max-width: 1280px) {
@@ -3675,6 +3667,10 @@ ul.feature-icons li:nth-child(4) {
 @media screen and (max-width: 1152px) {
 	#wrapper {
 		padding: 0;
+	}
+
+	footer .items h3 {
+		color: #273c5a;
 	}
 
 	#wrapper:before {
